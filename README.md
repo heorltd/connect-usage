@@ -127,3 +127,66 @@ app_sessions %>%
 
 Learn more about programmatic deployments, calling the server API, and
 custom emails [here](https://docs.rstudio.com/user).
+
+# Retrieve user access permissions
+
+``` r
+library(connectapi)
+client <- connect( # connection to the RSC server
+  auth = "manual",
+  server = "https://rstudio-connect.heor.co.uk",
+  api_key = "your-api-key-or-sysenv-call-goes-herre"
+)
+dat <- client %>% # tbl detailing apps on the server
+  get_content() %>%
+  filter(str_detect(content_category, "^$")) # empty string indicates 'app'
+guids <- dat %>% # ids for each app on the server
+  pull("guid")
+contents <- client %>% # lookup to go from content id to content name/title
+  get_content(limit = Inf) %>%
+  filter(content_category == "") %>%
+  select(all_of(c("content_guid"="guid", "content_name"="name", "content_title"="title")))
+groups <- client %>% # all groups of users defined on the server
+  get_groups(limit = Inf)
+group_guids <- groups %>% # the ids for each group
+  pull(guid)
+group_members <- group_guids %>% # list of tbls detailing which user is in which group
+  lapply(get_group_members, src = client)
+group_user_lookup <- tibble(group_guid = group_guids, tbl = group_members) %>%
+  # lookup tbl to go from the id of a group to details about the users in the group
+  unnest(cols = all_of("tbl")) %>%
+  filter(
+    not(locked),
+    not(str_detect(first_name, "^$")),
+    not(str_detect(last_name, "^$")),
+    not(str_detect(email, ".*heor.*"))
+  ) %>%
+  mutate(name = as.character(glue("{first_name} {last_name}"))) %>%
+  select(all_of(c("group_guid", "principal_guid"="guid", "username", "name", "email")))
+users <- client %>% # details on all users
+  get_users(limit = Inf) %>%
+  filter(
+    not(locked),
+    not(str_detect(first_name, "^$")),
+    not(str_detect(last_name, "^$")),
+    not(str_detect(email, ".*heor.*"))
+  ) %>%
+  mutate(name = as.character(glue("{first_name} {last_name}"))) %>%
+  select(all_of(c("principal_guid"="guid", "username", "name", "email")))
+permissions <- guids %>%
+  lapply(content_item, connect = client) %>% # R6 object representing each app
+  lapply(get_content_permissions) %>% # the user permissions for each app
+  bind_rows() # bundled into a single tbl
+permissions_users <- permissions %>% # output for users assigned individually to apps
+  filter(principal_type == "user") %>%
+  select(all_of(c("principal_guid", "content_guid"))) %>%
+  inner_join(users, by = c("principal_guid")) %>%
+  inner_join(contents, by = c("content_guid"))
+permissions_groups <- permissions %>% # output for users assigned to apps through a group
+  filter(principal_type == "group") %>%
+  select(all_of(c("group_guid"="principal_guid", "content_guid"))) %>%
+  inner_join(group_user_lookup, by = c("group_guid")) %>%
+  inner_join(contents, by = c("content_guid"))
+permissions_out <- bind_rows(permissions_users, permissions_groups) %>% # output
+  select(all_of(c("name", "username", "email", "content_name", "content_title")))
+```
