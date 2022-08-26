@@ -134,7 +134,7 @@ custom emails [here](https://docs.rstudio.com/user).
 library(connectapi)
 client <- connect( # connection to the RSC server
   auth = "manual",
-  server = "https://rstudio-connect.heor.co.uk",
+  server = "url/for/your/connect/server",
   api_key = "your-api-key-or-sysenv-call-goes-herre"
 )
 dat <- client %>% # tbl detailing apps on the server
