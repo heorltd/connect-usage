@@ -12,7 +12,7 @@
   "packages": {
     "R6": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -40,7 +40,7 @@
     },
     "Rcpp": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -69,7 +69,7 @@
     },
     "askpass": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -101,7 +101,7 @@
     },
     "base64enc": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -126,7 +126,7 @@
     },
     "bit": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -158,7 +158,7 @@
     },
     "bit64": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -190,7 +190,7 @@
     },
     "cli": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -222,7 +222,7 @@
     },
     "config": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -294,7 +294,7 @@
     },
     "crayon": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -324,7 +324,7 @@
     },
     "curl": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -357,7 +357,7 @@
     },
     "digest": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -386,7 +386,7 @@
     },
     "dplyr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -421,7 +421,7 @@
     },
     "ellipsis": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -451,7 +451,7 @@
     },
     "evaluate": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -482,7 +482,7 @@
     },
     "fansi": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -514,7 +514,7 @@
     },
     "fastmap": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -543,7 +543,7 @@
     },
     "fs": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -578,7 +578,7 @@
     },
     "generics": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -609,7 +609,7 @@
     },
     "glue": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -643,7 +643,7 @@
     },
     "highr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -673,7 +673,7 @@
     },
     "hms": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -704,7 +704,7 @@
     },
     "htmltools": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -737,7 +737,7 @@
     },
     "httr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -768,7 +768,7 @@
     },
     "jquerylib": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -796,7 +796,7 @@
     },
     "jsonlite": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -826,7 +826,7 @@
     },
     "knitr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -860,7 +860,7 @@
     },
     "lifecycle": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -892,7 +892,7 @@
     },
     "magrittr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -924,7 +924,7 @@
     },
     "markdown": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -956,7 +956,7 @@
     },
     "mime": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -985,7 +985,7 @@
     },
     "openssl": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1017,7 +1017,7 @@
     },
     "pillar": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1053,7 +1053,7 @@
     },
     "pkgconfig": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1081,7 +1081,7 @@
     },
     "prettyunits": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1109,7 +1109,7 @@
     },
     "progress": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1138,7 +1138,7 @@
     },
     "purrr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1170,7 +1170,7 @@
     },
     "rlang": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1206,7 +1206,7 @@
     },
     "rmarkdown": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1239,7 +1239,7 @@
     },
     "stringi": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1271,7 +1271,7 @@
     },
     "stringr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1303,7 +1303,7 @@
     },
     "sys": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1334,7 +1334,7 @@
     },
     "tibble": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1368,7 +1368,7 @@
     },
     "tidyr": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1401,7 +1401,7 @@
     },
     "tidyselect": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1434,7 +1434,7 @@
     },
     "tinytex": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1464,7 +1464,7 @@
     },
     "utf8": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1494,7 +1494,7 @@
     },
     "uuid": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1518,7 +1518,7 @@
     },
     "vctrs": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1550,7 +1550,7 @@
     },
     "xfun": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
@@ -1581,7 +1581,7 @@
     },
     "yaml": {
       "Source": "CRAN",
-      "Repository": "https://cran.rstudio.com",
+      "Repository": "https://packagemanager.rstudio.com/cran/__linux__/focal/latest",
       "GithubRepo": null,
       "GithubUsername": null,
       "GithubRef": null,
