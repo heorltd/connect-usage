@@ -1,4 +1,4 @@
 library(connectAnalytics)
 library(shiny)
 # Run
-connectAnalytics()
+connectAnalytics(user = "alik.vodyanov")
